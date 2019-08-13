@@ -1,0 +1,66 @@
+,,,,,,,,,Sensor,,,,,,,,
+id,Name,Description,Zone,Group,MCP address,Bank,Pin, Typeof,Decimal code,operable, norm_closed, override_on, is_triggered, is_armed,has_tamper,tamper_overr_on, tamper_triggered
+0,ctl_sw1,Zone 1: SW,-1,ctl,0,0,0,8,1,1,0,0,0,0,0,0,0
+1,ctl_sw2,Zone 2: SW,-1,ctl,0,0,1,8,2,1,0,0,0,0,0,0,0
+2,ctl_sw3,Zone 3: SW,-1,ctl,0,0,2,8,4,1,0,0,0,0,0,0,0
+3,ctl_sw4,Zone 4: SW,-1,ctl,0,0,3,8,8,1,0,0,0,0,0,0,0
+4,ctl_sw5,Zone 5: SW,-1,ctl,0,0,4,8,16,1,0,0,0,0,0,0,0
+5,ctl_sw6,Zone 6: SW,-1,ctl,0,0,5,8,32,1,0,0,0,0,0,0,0
+6,ctl_sw7,Zone 7: SW,-1,ctl,0,0,6,8,64,1,0,0,0,0,0,0,0
+7,ctl_sw8,Zone 8: SW,-1,ctl,0,0,7,8,128,1,0,0,0,0,0,0,0
+8,ctl_led1,Zone 1: LED,-1,led,0,1,0,9,1,1,0,0,0,0,0,0,0
+9,ctl_led2,Zone 2: LED,-1,led,0,1,1,9,2,1,0,0,0,0,0,0,0
+10,ctl_led3,Zone 3: LED,-1,led,0,1,2,9,4,1,0,0,0,0,0,0,0
+11,ctl_led4,Zone 4: LED,-1,led,0,1,3,9,8,1,0,0,0,0,0,0,0
+12,ctl_led5,Zone 5: LED,-1,led,0,1,4,9,16,1,0,0,0,0,0,0,0
+13,ctl_led6,Zone 6: LED,-1,led,0,1,5,9,32,1,0,0,0,0,0,0,0
+14,ctl_led7,Zone 7: LED,-1,led,0,1,6,9,64,1,0,0,0,0,0,0,0
+15,ctl_led8,Zone 8: LED,-1,led,0,1,7,9,128,1,0,0,0,0,0,0,0
+16,pir01,Master Bedroom PIR,3,alm,1,0,0,1,1,1,1,0,0,0,1,0,0
+17,gls01,Master Glass break,0,alm,1,0,1,2,2,0,1,0,0,0,1,0,0
+18,pir02,Meg Bed PIR,3,alm,1,0,2,1,4,1,1,0,0,0,1,0,0
+19,pir03,Spare Bed PIR,3,alm,1,0,3,1,8,1,1,0,0,0,1,0,0
+20,pir04,Study 1 & 2 PIR,4,alm,1,0,4,1,16,1,1,0,0,0,1,0,0
+21,pir05,Hall 1 & 2 PIR,3,alm,1,0,5,1,32,1,1,0,0,0,1,0,0
+22,door01,Master French Door MAG,0,alm,1,0,6,0,64,0,1,0,0,0,0,0,0
+23,door02,Front Door MAG,0,alm,1,0,7,0,128,0,1,0,0,0,0,0,0
+24,pirt01,Master Bedroom PIR TAM,3,tam,1,1,0,1,1,0,1,0,0,0,1,0,0
+25,glst01,Master Glass break TAM,0,tam,1,1,1,2,2,0,1,0,0,0,1,0,0
+26,pirt02,Meg Bed PIR TAM,3,tam,1,1,2,1,4,0,1,0,0,0,1,0,0
+27,pirt03,Spare Bed PIR TAM,3,tam,1,1,3,1,8,0,1,0,0,0,1,0,0
+28,pirt04,Study 1 & 2 PIR TAM,4,tam,1,1,4,1,16,0,1,0,0,0,1,0,0
+29,pirt05,Hall 1 & 2 PIR TAM,3,tam,1,1,5,1,32,0,1,0,0,0,1,0,0
+30,mt,not used,-1,mt,1,1,6,0,64,0,1,0,0,0,0,0,0
+31,key,Front Door Keyswitch TAM,0,tam,1,1,7,0,128,0,1,0,0,0,0,0,0
+32,pir06,Lounge/Dining 1 & 2 PIR,4,alm,2,0,0,1,1,1,1,0,0,0,1,0,0
+33,gls02,Lounge Glass break,0,alm,2,0,1,2,2,0,1,0,0,0,1,0,0
+34,gls03,Dining Glass break,0,alm,2,0,2,2,4,0,1,0,0,0,1,0,0
+35,pir07,Kitchen PIR,5,alm,2,0,3,1,8,0,1,0,0,0,1,0,0
+36,door03,Back Door MAG,1,alm,2,0,4,0,16,0,1,0,0,0,0,0,0
+37,door04,Lounge French Door MAG,0,alm,2,0,5,0,32,0,1,0,0,0,0,0,0
+38,door05,Dining French Door MAG,0,alm,2,0,6,0,64,0,1,0,0,0,0,0,0
+39,mt,not used 1,-1,mt,2,0,7,0,128,0,0,0,0,0,0,0,0
+40,pirt06,Lounge/Dining 1 & 2 PIR TAM,4,tam,2,1,0,1,1,0,1,0,0,0,1,0,0
+41,glst02,Lounge Glass break TAM,0,tam,2,1,1,2,2,0,1,0,0,0,1,0,0
+42,glst03,Dining Glass break TAM,0,tam,2,1,2,2,4,0,1,0,0,0,1,0,0
+43,pirt07,Kitchen PIR TAM,5,tam,2,1,3,1,8,0,1,0,0,0,1,0,0
+44,mt,not used,-1,mt,2,1,4,0,16,0,1,0,0,0,0,0,0
+45,mt,not used,-1,mt,2,1,5,0,32,0,1,0,0,0,0,0,0
+46,mt,not used,-1,mt,2,1,6,0,64,0,1,0,0,0,0,0,0
+47,mt,not used,-1,mt,2,1,7,0,128,0,0,0,0,0,0,0,0
+48,door05,Kitchen/Dining MAG,2,alm,3,0,0,0,1,0,1,0,0,0,0,0,0
+49,door06,Kitchen/Hall MAG,2,alm,3,0,1,0,2,0,1,0,0,0,0,0,0
+50,fen01,Electric Fence,6,alm,3,0,2,4,4,0,0,0,0,0,0,0,0
+51,fen02,Motor gate,6,alm,3,0,3,4,8,0,0,0,0,0,0,0,0
+52,mt,not used,-1,mt,3,0,4,4,16,0,0,0,0,0,0,0,0
+53,mt,not used,6,mt,3,0,5,3,32,0,1,0,0,0,0,0,0
+54,mt,not used,-1,mt,3,0,6,5,64,0,0,0,0,0,0,0,0
+55,mt,not used,-1,mt,3,0,7,9,128,0,0,0,0,0,0,0,0
+56,pan01,Master PANIC,9,pan,3,1,0,9,1,1,1,0,0,0,0,0,0
+57,pan02,Meg Bed PANIC,9,pan,3,1,1,9,2,1,1,0,0,0,0,0,0
+58,pan03,Front Door PANIC,9,pan,3,1,2,9,4,0,0,0,0,0,0,0,0
+59,fire01,Heat/Fire,9,pan,3,1,3,9,8,0,0,0,0,0,0,0,0
+60,mt,not used,-1,mt,3,1,4,9,16,0,0,0,0,0,0,0,0
+61,mt,not used,-1,mt,3,1,5,9,32,0,1,0,0,0,0,0,0
+62,mt,not used,-1,mt,3,1,6,9,64,0,0,0,0,0,0,0,0
+63,mt,not used,-1,mt,3,1,7,9,128,0,0,0,0,0,0,0,0

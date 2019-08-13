@@ -1,0 +1,20 @@
+pir01,   Master bedroom PIR,        01,      1,   0,           0,           0,       1,         0
+door01,  Master french door Mag,    00,      1,   0,           0,           0,       0,         0
+pan01,   Master panic,              10,      0,   0,           0,           0,       0,         0
+gls01,   Master glass,              02,      1,   0,           0,           0,       1,         0
+pir02,   Meg bed pir,               01,      1,   0,           0,           0,       1,         0
+pan02,   Meg bed panic,             10,      0,   0,           0,           0,       0,         0
+pir03,   Spare bed pir,             01,      1,   0,           0,           0,       1,         0
+pir04,   Study pir 1,               01,      1,   0,           0,           0,       1,         0
+pir05,   Study pir 2,               01,      1,   0,           0,           0,       1,         0
+pir06,   Passg hall pir,            01,      1,   0,           0,           0,       1,         0
+pan03,   Front door pan,            10,      0,   0,           0,           0,       0,         0
+door02,  Front door Mag,            00,      1,   0,           0,           0,       0,         0
+door03,  Hall/Kitchen Mag,          00,      1,   0,           0,           0,       0,         0
+pir07,   Lounge/Dining pir,         01,      1,   0,           0,           0,       1,         0
+door04,  Lounge french door Mag,    00,      1,   0,           0,           0,       0,         0
+gls02,   Lounge glass,              02,      1,   0,           0,           0,       1,         0
+door05,  Dining french door Mag,    00,      1,   0,           0,           0,       0,         0
+door06,  Dining/Kitchen Mag,        00,      1,   0,           0,           0,       0,         0
+gls03,   Dining glass,              02,      1,   0,           0,           0,       1,         0
+fen01,   Electric fence,            03,      1,   0,           0,           0,       1,         0
